@@ -462,13 +462,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196444511}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.018852657, z: -0, w: 0.99982226}
-  m_LocalPosition: {x: -0.13, y: 4.32, z: -8.1}
+  m_LocalRotation: {x: -0, y: -0.13742854, z: -0, w: 0.9905117}
+  m_LocalPosition: {x: 3.06, y: 4.32, z: -7.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -2.16, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -15.798, z: 0}
 --- !u!114 &196444515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -614,8 +614,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.5450981, g: 0.2705882, b: 0.07450981, a: 1}
-    m_PressedColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 1}
+    m_PressedColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 3
@@ -1223,14 +1223,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381432632}
-  m_LocalRotation: {x: 0.012623312, y: 0.09942379, z: -0.00082599197, w: 0.9949648}
+  m_LocalRotation: {x: 0.0122991055, y: -0.07118248, z: -0.0029601178, w: 0.9973831}
   m_LocalPosition: {x: 0, y: 0, z: -43.9}
   m_LocalScale: {x: 0.60042405, y: 0.6638382, z: 0.8409}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 786530458}
   m_Father: {fileID: 1895831480}
-  m_LocalEulerAnglesHint: {x: 1.449, y: 11.414, z: 0.05}
+  m_LocalEulerAnglesHint: {x: 1.382, y: -8.17, z: -0.439}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -216.1, y: 176.7}
@@ -2490,7 +2490,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: NIGHT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bc5336ad0f5e2ca4cadce776e259d194, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e08f21d4127129a43873d2cba1210142, type: 2}
   m_sharedMaterial: {fileID: 8547378051034653105, guid: bc5336ad0f5e2ca4cadce776e259d194, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2557,7 +2557,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &720346483
@@ -3630,7 +3630,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 00426ec8a01fb4312b09f803468c72d7, type: 3}
+  m_Resource: {fileID: 8300000, guid: a92e04cdff88e4b4cbf4770e7b4db935, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.35
   m_Pitch: 1
@@ -4389,7 +4389,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: DAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bc5336ad0f5e2ca4cadce776e259d194, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e08f21d4127129a43873d2cba1210142, type: 2}
   m_sharedMaterial: {fileID: 8547378051034653105, guid: bc5336ad0f5e2ca4cadce776e259d194, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4456,7 +4456,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1257426163
